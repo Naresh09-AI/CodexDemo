@@ -1,0 +1,13 @@
+<header class="app-header">
+  <a class="brand" routerLink="/login">{{ appName }}</a>
+  <nav class="nav-links" aria-label="Primary navigation">
+    <a routerLink="/login" routerLinkActive="active">Login</a>
+    <a routerLink="/register" routerLinkActive="active">Register</a>
+    <a routerLink="/dashboard" routerLinkActive="active">User</a>
+    <a routerLink="/admin" routerLinkActive="active">Admin</a>
+  </nav>
+</header>
+
+<main class="app-main">
+  <router-outlet />
+</main>
